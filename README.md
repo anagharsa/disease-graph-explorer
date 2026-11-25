@@ -26,7 +26,13 @@ The files come from the [official HPO release](https://github.com/obophenotype/h
 
 You need Python 3.10 or newer, Node.js 20.19 or newer, and Neo4j Community 5.26 (or Docker Compose).
 
-1. Copy `.env.example` to `.env` and set a local Neo4j password.
+1. Create a `.env` file in the project folder with a local Neo4j password:
+
+   ```env
+   NEO4J_USER=neo4j
+   NEO4J_PASSWORD=choose-a-local-password
+   ```
+
 2. Start Neo4j: `docker compose up -d neo4j`.
 3. From the project folder, set up Python and load the HPO data:
 
@@ -46,7 +52,7 @@ You need Python 3.10 or newer, Node.js 20.19 or newer, and Neo4j Community 5.26 
    uvicorn app.main:app --app-dir backend --reload --host 127.0.0.1 --port 8001
    ```
 
-5. Copy `frontend/.env.example` to `frontend/.env.local`. Then run the frontend:
+5. Run the frontend:
 
    ```bash
    cd frontend
