@@ -22,10 +22,6 @@ The project uses Human Phenotype Ontology (HPO) terms from `hp.obo` and diseaseâ
 
 The files come from the [official HPO release](https://github.com/obophenotype/human-phenotype-ontology/releases/tag/v2022-12-15). The data download and import scripts are in `scripts/`. The raw data files are not included in the repository; download and import them before running a fresh copy of the app.
 
-## Technology
-
-Neo4j Community, Cypher, FastAPI, React, TypeScript, Vite, and Cytoscape.js.
-
 ## Run locally
 
 You need Python 3.10 or newer, Node.js 20.19 or newer, and Neo4j Community 5.26 (or Docker Compose).
