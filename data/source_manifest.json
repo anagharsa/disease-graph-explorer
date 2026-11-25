@@ -1,0 +1,32 @@
+{
+  "datasets": [
+    {
+      "name": "Human Phenotype Ontology: ontology",
+      "source_url": "https://github.com/obophenotype/human-phenotype-ontology/releases/tag/v2022-12-15",
+      "asset_url": "https://github.com/obophenotype/human-phenotype-ontology/releases/download/v2022-12-15/hp.obo",
+      "release": "v2022-12-15",
+      "release_date": "2022-12-16",
+      "file_data_date": "2022-12-15",
+      "retrieval_date": "2026-10-28",
+      "license": "HPO terms of use: acknowledge HPO, display file date/version, and do not alter source content; see https://human-phenotype-ontology.github.io/license.html",
+      "local_filename": "data/raw/hp.obo",
+      "sha256": "978a9afc2e6fb82db5f2544f98ff25fbd6d9f052c459a35454a1303f1255e092",
+      "historical_verification": "Versioned official GitHub release tag v2022-12-15; release page states December 2022 release and was published 16 Dec 2022.",
+      "notes": "Exact historical release asset; not an alias for the current release."
+    },
+    {
+      "name": "HPO disease phenotype annotations",
+      "source_url": "https://github.com/obophenotype/human-phenotype-ontology/releases/tag/v2022-12-15",
+      "asset_url": "https://github.com/obophenotype/human-phenotype-ontology/releases/download/v2022-12-15/phenotype.hpoa",
+      "release": "v2022-12-15",
+      "release_date": "2022-12-16",
+      "file_data_date": "2022-12-20",
+      "retrieval_date": "2026-10-28",
+      "license": "HPO terms of use: acknowledge HPO, display file date/version, and do not alter source content; see https://human-phenotype-ontology.github.io/license.html",
+      "local_filename": "data/raw/phenotype.hpoa",
+      "sha256": "12f11d613f87f04b16e57b9b118c107132f2a5ed445f11a5eed89ee02001a330",
+      "historical_verification": "Versioned official GitHub release tag v2022-12-15; the release page states it was published in December 2022. The HPOA file header records its own data date.",
+      "notes": "Exact historical release asset. Three annotation rows are labeled Immunodeficiency 74, COVID19-related, X-linked; this is not a COVID-19 infection profile."
+    }
+  ]
+}

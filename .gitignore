@@ -1,0 +1,15 @@
+.env
+frontend/.env.local
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+node_modules/
+dist/
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+/work/neo4j-dist/
+/work/neo4j-data/
+.DS_Store
